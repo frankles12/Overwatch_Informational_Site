@@ -1,0 +1,283 @@
+@font-face {
+    font-family: Koverwatch;
+    src: url(Fonts/koverwatch.ttf);
+}
+@font-face {
+    font-family: BigNoodleTooOblique;
+    src: url(Fonts/bignoodletoo.ttf);
+}
+
+body {
+    background-color: #dcd7e0;
+}
+.contact-us {
+    position: relative;
+    bottom: 145px;
+    left: 100px;
+
+}
+
+.contact-us-button {
+    background-color: #FDAF42;
+    color: black;
+    font-family: "Koverwatch", "Times New Roman";
+    border-radius: 180px;
+}
+.contact-us-button:hover {
+    background: linear-gradient(white, #FDAF42 );
+}
+
+@media screen and (max-width: 815px) {
+    .contact-us {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-us-button {
+        position: relative;
+        left: 135px;
+        top: 150px;
+
+    }
+}
+
+.main-header {
+    font-family: "BigNoodleTooOblique","Times New Roman";
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-header {
+        position: relative;
+        left: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main-header {
+        position: relative;
+        left: 15px;
+    }
+}
+
+.main-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-wrap {
+    height: 145px;
+    width: 365px;
+
+    background: linear-gradient(#FFE7C5, #FDAF42 );
+    border-bottom-left-radius:  80px;
+    border-bottom-right-radius:  80px;
+    box-shadow: 0 8px 5px #D5CBDC;
+}
+
+.intro-text {
+    text-align: center;
+
+}
+.intro-text h3 {
+    font-family: 'Koverwatch', "Times New Roman";
+
+}
+
+
+
+.stripe {
+    height: 75px;
+    width: 1440px;
+    position: absolute;
+    top: 0.1px;
+    background-color: white;
+    box-shadow: 0 5px 5px #D5CBDC;
+    z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+    .stripe {
+        width: 992px;
+    }
+    .role-buttons {
+        margin-bottom: 5px;
+        margin-left: 75px;
+    }
+    .responsivenes {
+        width: 580px !important;
+        height: 530px !important;
+    }
+    .responsivenes-v2 {
+        width: 580px !important;
+        height: 530px !important;
+    }
+    .buttons-wrapper {
+        right: 0;
+    }
+    .images-wrapper {
+        position: relative;
+        right: 60px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .stripe {
+        width: 600px;
+    }
+    .role-buttons {
+
+        margin-left: 150px;
+    }
+    .responsivenes {
+        width: 380px !important;
+        height: 910px !important;
+    }
+    .hero-responsive {
+        width: 75px !important;
+    }
+    .images-wrapper-responsive {
+        right: 92px;
+    }
+    .responsivenes-v2 {
+        width: 380px !important;
+        height: 610px !important;
+    }
+    .buttons-wrapper {
+        right: 0 !important;
+    }
+
+}
+@media screen and (min-width: 300px) {
+    .role-buttons {
+        margin-left: 60px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .stripe {
+        width: 400px;
+    }
+    .header-wrap {
+        height: 125px;
+        width: 305px;
+    }
+}
+
+.role-buttons {
+    width: 220px;
+    height: 35px;
+    background-color: #FDAF42;
+    color: black;
+    font-size: 24px;
+    padding-bottom: 50px;
+    font-family: "Koverwatch", "Times New Roman";
+
+}
+
+.role-buttons:hover {
+    background: linear-gradient(white, #FDAF42 );
+}
+.buttons-wrapper {
+    position: relative;
+    right: 60px;
+}
+
+.images-wrapper {
+    padding-left: 115px !important;
+    padding-top: 20px !important;
+}
+
+#selectedRole {
+    /*margin-top: 50px;*/
+    /*width: 980px;*/
+    /*height: 340px;*/
+    /*background-color: #FDAF42;*/
+    width: 220px;
+    height: 40px;
+    background: linear-gradient(#FDAF42, #FFD190);
+    position: relative;
+    top: -18px;
+    right: 383px;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px #D5CBDC;
+
+
+}
+
+#hero-selected-container {
+    margin-top: 50px;
+    width: 980px;
+    height: 340px;
+    background: linear-gradient(white, #FDAF42 );
+}
+
+.hero-preview {
+    width: 90px;
+    height: 155px;
+}
+
+.select-button {
+    margin-top: 20px;
+}
+
+.learn-more-button {
+    background-color: #FDAF42;
+    color: black;
+    font-size: 24px;
+    font-family: "Koverwatch", "Times New Roman";
+}
+
+.learn-more-button:hover {
+    background: linear-gradient(white, #FDAF42 );
+}
+.test-style {
+    font-size: 80px;
+}
+
+.info-boxes{
+    height: 170px;
+    background: linear-gradient(#FFD190, #FDAF42 );
+    border-bottom: solid 1px #7c7c7c;
+    box-shadow: 0 4px 15px black;
+
+}
+
+.info-boxes-cannon{
+    height: 220px;
+    background: linear-gradient(#FFD190, #FDAF42 );
+    border-bottom: solid 1px #7c7c7c;
+    box-shadow: 0 4px 15px black;
+
+}
+
+.passive-title {
+    font-family: 'Koverwatch', "Times New Roman";
+    font-size: 24px;
+}
+
+.passive-icon img {
+    height: 95%;
+    width: 95%;
+}
+.buff-info {
+    position: relative;
+    bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .buff-info {
+        position: static;
+        bottom: 0;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .icon-images {
+        display: none;
+    }
+
+}
+
+
+/*Insert Form Styles */

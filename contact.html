@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="hover.css">
+    <title>Contact</title>
+</head>
+<body>
+<div class="row header-wrap">
+    <h1 class="col l12 main-header hvr-hang">
+        <a href="Role_Select.html">OWatch Stats</a>
+    </h1>
+</div>
+<span class="stripe"></span>
+<form id="myform" method="post" class="container">
+    <label>Email</label>
+    <input type="text" name="reply_to" />
+    <label>Name</label>
+    <input type="text" name="from_name" />
+    <label>Who is this message addressed to?</label>
+    <input type="text" name="to_name" />
+    <label>Message</label>
+    <input type="text" name="message_html" />
+    <br /><br />
+    <button>
+        Send
+    </button>
+</form>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
+<script crossorigin src='https://unpkg.com/react@16/umd/react.development.js'></script>
+<script crossorigin src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/babel" src="ContactForm.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_QFan7a4Q9lLbCWDITnaDt");
+    })();
+</script>
+</body>
+</html>
